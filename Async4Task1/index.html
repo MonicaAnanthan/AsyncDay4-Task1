@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Day 4 | Task 1</title>
+    <link href="./assets/bootstrap/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="./assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <section class="emoji-caros">
+        <div class="container">
+            <div>
+                <div class="main-title">
+                    <h1>Emoji Hub</h1>
+                </div>
+                <div id="emojiCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner"></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#emojiCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#emojiCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="no-data-container hidden">
+                <div class="no-data-content">
+                  <img alt="no data" src="./assets/img/noData.webp" />
+                  <p>No Data Found</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/jquery/jquery.min.js"></script>
+    <script src="./assets/bootstrap/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
